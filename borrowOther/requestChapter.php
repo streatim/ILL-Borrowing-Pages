@@ -30,7 +30,7 @@
             <p>Step-by-Step Instructions for requesting articles through ILLiad</p>
         </div>
         <div class="contentCopy">
-			<p>Article Requests are single articles from a journal, usually received electronically through ILLIAD, the library's Interlibrary loan request system. To place a request:</p>
+			<p>Article Requests are single articles from a journal, usually received electronically through ILLIAD, the library's Interlibrary loan request system. To place a request</p>
 			<ol>
 				<li>Log into ILLiad at <?php echo extLink('https://ill.lib.umich.edu/illiad/illiad.dll'); ?></li>
 				<li>Click on the Article link next to Place a Request at the top of the ILLiad Form</li>
