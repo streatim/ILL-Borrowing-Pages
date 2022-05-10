@@ -219,6 +219,11 @@
             'text' => 'How do I Request - Articles',
             'parent' => 'borrowingOtherLibraries',
         ],
+        'requestBooks' => [
+            'path' => '/services/borrowOther/requestBooks.php',
+            'text' => 'How do I Request - Books',
+            'parent' => 'borrowingOtherLibraries',
+        ],
         'requestChapter' => [
             'path' => '/services/borrowOther/requestChapter.php',
             'text' => 'How do I Request - Book Chapters',
