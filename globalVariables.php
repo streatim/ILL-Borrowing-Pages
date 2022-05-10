@@ -59,7 +59,7 @@
             'text' => 'Borrowing Items from the Mardigian',
         ],
         'borrowingOtherLibraries' => [
-            'path' => '/services/borrowOtherLibraries.php',
+            'path' => '/services/borrowOther/borrowOtherLibraries.php',
             'text' => 'Borrowing Items from Other Libraries',
         ],
         'borrowingOtherLibrariesGET' => [
@@ -213,6 +213,16 @@
             'path' => '/services/borrowing/renewals.php',
             'text' => 'Renewing Items',
             'parent' => 'borrowing',
+        ],
+        'requestArticle' => [
+            'path' => '/services/borrowOther/requestArticle.php',
+            'text' => 'How do I Request - Articles',
+            'parent' => 'borrowingOtherLibraries',
+        ],
+        'requestChapter' => [
+            'path' => '/services/borrowOther/requestChapter.php',
+            'text' => 'How do I Request - Book Chapters',
+            'parent' => 'borrowingOtherLibraries',
         ],
         'researchEd' => [
             'path' => '/services/researcheducation.php',

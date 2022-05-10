@@ -2,7 +2,8 @@
     $page = [
         'Title' => 'How do I Request - Articles',
         'Links' => [
-			
+			'requestArticle',
+			'requestChapter',
         ],
         'Breadcrumbs' => [
             'Services' => False,
@@ -51,7 +52,8 @@
 					</ul>
 				</li>
 			</ol>
-			<p class="linkBlueBold"><strong>Questions about requesting articles through ILLIAD?</strong> Reach out to <?php echo extLink('https://illiad.lib.umich.edu', 'the ILLIAD service'); ?>.</p>
+			<p class="linkBlueBold"><strong>Questions about requesting articles through ILLIAD?</strong>
+			<br>Reach out to the <?php echo extLink('https://www.lib.umich.edu/locations-and-hours/hatcher-library/interlibrary-loan-office', 'ILLIAD service'); ?> in Ann Arbor.</p>
 		</div>
 	</div>
 
