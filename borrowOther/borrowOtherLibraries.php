@@ -43,13 +43,13 @@
         </div>
         <div class="contentCopy">
 			<ul>
-				<?php listLink('search', '...request articles?'); ?>
-				<?php listLink('holds', '...request book chapters?'); ?>
-				<?php listLink('recalls', '...request books?'); ?>
-				<?php listLink('renewals', '...request DVDs, audio books, or CDs?'); ?>
-				<?php listLink('returns', '...request a thesis or dissertations?'); ?>
-				<?php listLink('borrowingOtherLibraries', '...request microfilm, microform, or microfiche?'); ?>
-				<?php listLink('', '...renew items from other institutions?'); ?>
+				<?php listLink('requestArticle', '...request articles?'); ?>
+				<?php listLink('requestChapter', '...request book chapters?'); ?>
+				<?php listLink('requestBooks', '...request books?'); ?>
+				<?php listLink('requestAV', '...request DVDs, audio books, or CDs?'); ?>
+				<?php listLink('requestThesisDissertation', '...request a thesis or dissertations?'); ?>
+				<?php listLink('requestMicro', '...request microfilm, microform, or microfiche?'); ?>
+				<?php listLink('renewals', '...renew items from other institutions?'); ?>
 			</ul>
 		</div>
 		<div class="intro"><!--Bolded Section Header-->

@@ -35,8 +35,8 @@
 			<p>Article Requests are single articles from a journal, usually received electronically through ILLIAD, the library's Interlibrary loan request system. To place a request:</p>
 			<ol>
 				<li>Log into <strong>ILLiad</strong> at <?php echo extLink('https://ill.lib.umich.edu/illiad/illiad.dll'); ?></li>
-				<li>Click on the <strong>Article</strong> link next to Place a Request at the top of the ILLiad Form</li>
-				<li>Fill out the form as completely as possible. Make sure to fill out required fields
+				<li>Click on the <strong>Article</strong> link next to <em>Place a Request</em> at the top of the ILLiad Form</li>
+				<li>Fill out the form as completely as possible. Make sure to fill out required fields.
 					<ul>
 						<li>Use <strong>DOI Finder</strong> at the top of the form and then click <strong>Autofill</strong> if you know the DOI (Digital Object Identifier) for the article you want. This will fill out most of the required form fields for you.</li>
 						<li>Including an ISSN number will increase the speed with which your request is filled.</li>
@@ -53,9 +53,9 @@
 					</ul>
 				</li>
 			</ol>
-			<p class="linkBlueBold"><strong>Questions about requesting articles through ILLIAD?</strong>
-			<br>Reach out to the <?php echo extLink('https://www.lib.umich.edu/locations-and-hours/hatcher-library/interlibrary-loan-office', 'ILLIAD service'); ?> in Ann Arbor.</p>
 		</div>
+		<p class="linkBlueBold"><strong>Questions about requesting articles through ILLIAD?</strong>
+			<br>Reach out to the <?php echo extLink('https://www.lib.umich.edu/locations-and-hours/hatcher-library/interlibrary-loan-office', 'ILLIAD service'); ?> in Ann Arbor.</p>
 	</div>
 
 	<!--Do not edit below-->

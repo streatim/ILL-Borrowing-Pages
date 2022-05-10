@@ -35,7 +35,7 @@
 			<p>It is possible to request a scan of a single chapter from a book, usually received electronically. To place a request:</p>
 			<ol>
 				<li>Log into <strong>ILLiad</strong> at <?php echo extLink('https://ill.lib.umich.edu/illiad/illiad.dll'); ?></li>
-				<li>Click on the <strong>Book Chapter</strong> link next to Place a Request at the top of the ILLIAD Form</li>
+				<li>Click on the <strong>Book Chapter</strong> link next to <em>Place a Request</em> at the top of the ILLIAD Form</li>
 				<li>Fill out the form as completely as possible. Make sure to fill out required fields.
 					<ul>
 						<li>Including an ISBN for the book will increase the speed with which your request is filled.</li>
@@ -52,9 +52,9 @@
 					</ul>
 				</li>
 			</ol>
-			<p class="linkBlueBold"><strong>Questions about requesting Book Chapters through ILLIAD?</strong>
-			<br>Reach out to the <?php echo extLink('https://www.lib.umich.edu/locations-and-hours/hatcher-library/interlibrary-loan-office', 'ILLIAD service'); ?> in Ann Arbor.</p>
 		</div>
+		<p class="linkBlueBold"><strong>Questions about requesting book chapters through ILLIAD?</strong>
+			<br>Reach out to the <?php echo extLink('https://www.lib.umich.edu/locations-and-hours/hatcher-library/interlibrary-loan-office', 'ILLIAD service'); ?> in Ann Arbor.</p>
 	</div>
 
 	<!--Do not edit below-->
