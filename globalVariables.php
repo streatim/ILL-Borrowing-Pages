@@ -146,6 +146,10 @@
             'path' => '/find/getstarted.php',
             'text' => 'GET STARTED @ THE MARDIGIAN LIBRARY'
         ],
+        'getthis' => [
+            'path' => '/services/getthis.php',
+            'text' => 'Borrowing from UM-Ann Arbor &amp; UM-Flint'
+        ],
         'helpfaq' => [
             'path' => '/find/helpfaq.php',
             'text' => 'Help/FAQ',
@@ -219,6 +223,11 @@
             'text' => 'How do I Request - Articles',
             'parent' => 'borrowingOtherLibraries',
         ],
+        'requestAV' => [
+            'path' => '/services/borrowOther/requestAV.php',
+            'text' => 'How do I Request - AV',
+            'parent' => 'borrowingOtherLibraries',
+        ],
         'requestBooks' => [
             'path' => '/services/borrowOther/requestBooks.php',
             'text' => 'How do I Request - Books',
@@ -227,6 +236,21 @@
         'requestChapter' => [
             'path' => '/services/borrowOther/requestChapter.php',
             'text' => 'How do I Request - Book Chapters',
+            'parent' => 'borrowingOtherLibraries',
+        ],
+        'requestDissertations' => [
+            'path' => '/services/borrowOther/requestDissertations.php',
+            'text' => 'How do I Request - Dissertations and Theses',
+            'parent' => 'borrowingOtherLibraries',
+        ],
+        'requestMicro' => [
+            'path' => '/services/borrowOther/requestMicro.php',
+            'text' => 'How do I Request - Microfilm, Microform, or Microfiche',
+            'parent' => 'borrowingOtherLibraries',
+        ],
+        'requestRenewals' => [
+            'path' => '/services/borrowOther/renewals.php',
+            'text' => 'How do I Renew Requests From Other Libraries?',
             'parent' => 'borrowingOtherLibraries',
         ],
         'researchEd' => [

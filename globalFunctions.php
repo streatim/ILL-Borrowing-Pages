@@ -135,6 +135,10 @@
         return implode("", $output);
     }
 
+    //This function creates a search into an element of the A-Z Database List. NEEDS WORK.
+    function azDBSearch(){
+        //Currently should probably be used on /services/borrowOther/requestDissertations.php
+    }
     //This function creates an external link and presumes inline text use.
     function extLink($link, $text = ''){
         $linkText = ($text == '') ? $link : $text;

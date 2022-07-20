@@ -5,6 +5,10 @@
 			'requestArticle',
 			'requestChapter',
             'requestBooks',
+            'requestAV',
+            'requestDissertations',
+            'requestMicro',
+            'requestRenewals',
         ],
         'Breadcrumbs' => [
             'Services' => False,

@@ -1,6 +1,6 @@
 <?php //Set page Metadata
     $page = [
-        'Title' => 'How do I Request - Books',
+        'Title' => 'How do I Request - AV',
         'Links' => [
 			'requestArticle',
 			'requestChapter',
@@ -30,16 +30,8 @@
 	<!-- Content -->
 	<div class="large-9 medium-9 columns">
 		<div class="contentCopy">
-			<p>You can request books from other libraries using the library's interlibrary loan services. There are no fees for UM-Dearborn students, faculty, or staff to place these requests. We recommend going in the following order to find books from other libraries:</p>
+			<p>You can request audiovisual (AV) materials such as DVDs or CDs from other libraries using the library's interlibrary loan services. There are no fees for UM-Dearborn students, faculty, or staff to place these requests.</p>
 		</div>
-        <div class="intro">
-            <p>Get This</p>
-        </div>
-        <div class="contentCopy"> <!--Copy Content Here-->
-            <p>"Get This" is a service of the University Libraries in Ann Arbor. Current UM-Dearborn students, faculty and staff can request items from the UM-Ann Arbor and UM-Flint libraries, and have them delivered to the Dearborn library by using the MLibrary catalog. To use Get This, following the instructions on our <?php printLink('getthis'); ?> page.</p>
-			<p class="linkBlueBold"><strong>Questions about requesting books through Get This?</strong>
-			<br>Reach out to the <?php echo extLink('https://lib.umich.edu/ask-librarian', 'Ask a Librarian service'); ?> in Ann Arbor.</p>
-        </div>
         <div class="intro">
             <p>MeLCat</p>
         </div>
@@ -56,32 +48,32 @@
             <p class="linkBlueBold"><strong>Questions?</strong> Reach out through any of <?php textLink('askTheMardigian', 'our contact options'); ?>.</p> 
         </div>
 		<div class="intro"><!--Bolded Section Header-->
-            <p>Step-by-Step Instructions for requesting books through ILLiad</p>
+            <p>Step-by-Step Instructions for requesting AV materials through ILLiad</p>
         </div>
         <div class="contentCopy">
-			<p>Physical items, including books, can be requested for delivery to the Mardigian Library or to University Libraries in Ann Arbor. Textbooks are very hard to obtain through interlibrary loan. Try <strong>MeLCat</strong> instead. To place a request:</p>
+			<p>It is possible to request a scan of a single chapter from a book, usually received electronically. To place a request:</p>
 			<ol>
 				<li>Log into <strong>ILLiad</strong> at <?php echo extLink('https://ill.lib.umich.edu/illiad/illiad.dll'); ?></li>
-				<li>Click on the <strong>Loan (book, microform, AV, etc)</strong> link next to <em>Place a Request</em> at the top of the ILLiad Form</li>
+				<li>Click on the <strong>Loan (book, microform, AV, etc)</strong> link next to <em>Place a Request</em> at the top of the ILLIAD Form</li>
 				<li>Fill out the form as completely as possible. Make sure to fill out required fields.
 					<ul>
-						<li>Including an ISBN number will increase the speed with which your request is filled.</li>
+						<li>Be sure to enter N/A in the required ISBN box</li>
 					</ul>
 				</li>
 				<li>When you have completed the form, click the "Submit Request" button.
 					<ul>
-						<li>Click on <strong>All Requests</strong> in the left sidebar to check the status of your request</li>
+						<li>Click on <strong>All Requests</strong> in the left sidebar to check the status of your request.</li>
 					</ul>
 				</li>
-				<li>You will be notified by email when your book is available.
+				<li>You will be notified by email when your book chapter is available.
 					<ul>
-						<li>Click on <strong>Completed Requests</strong> in the left sidebar to see all of your completed ILLiad requests.</li>
+						<li>Click on <strong>Completed Requests</strong> in the left sidebar to view all of your completed requests.</li>
 					</ul>
 				</li>
 			</ol>
-			<p class="linkBlueBold"><strong>Questions about requesting books through ILLIAD?</strong>
-			<br>Reach out to the <?php echo extLink('https://www.lib.umich.edu/locations-and-hours/hatcher-library/interlibrary-loan-office', 'ILLIAD service'); ?> in Ann Arbor.</p>
 		</div>
+		<p class="linkBlueBold"><strong>Questions about requesting book chapters through ILLIAD?</strong>
+			<br>Reach out to the <?php echo extLink('https://www.lib.umich.edu/locations-and-hours/hatcher-library/interlibrary-loan-office', 'ILLIAD service'); ?> in Ann Arbor.</p>
 	</div>
 
 	<!--Do not edit below-->

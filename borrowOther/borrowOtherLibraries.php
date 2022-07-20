@@ -47,16 +47,15 @@
 				<?php listLink('requestChapter', '...request book chapters?'); ?>
 				<?php listLink('requestBooks', '...request books?'); ?>
 				<?php listLink('requestAV', '...request DVDs, audio books, or CDs?'); ?>
-				<?php listLink('requestThesisDissertation', '...request a thesis or dissertations?'); ?>
+				<?php listLink('requestDissertations', '...request a thesis or dissertations?'); ?>
 				<?php listLink('requestMicro', '...request microfilm, microform, or microfiche?'); ?>
-				<?php listLink('renewals', '...renew items from other institutions?'); ?>
+				<?php listLink('requestRenewals', '...renew items from other institutions?'); ?>
 			</ul>
 		</div>
 		<div class="intro"><!--Bolded Section Header-->
             <p>Frequently Asked Questions</p>
         </div>
         <div class="contentCopy">
-
 		</div>
 	</div>
 
